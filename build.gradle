@@ -9,15 +9,31 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:3.0.0'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
+        mavenCentral()
+
+        maven {
+            url "https://maven.google.com" // Google's Maven repository
+        }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+
+    firebaseVersion = '11.2.2'
+    firebaseUIVersion = '1.2.+'
+    supportLibraryVersion = '26.0.2'
+    constraintLayoutVersion = '1.+'
+    glideVersion = '3.+'
 }
