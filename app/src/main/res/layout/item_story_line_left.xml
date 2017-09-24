@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="comchatory.rainvic.ccityhkchatadmin.messenger.StoryItemViewModel"/>
+
+    </data>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/cl_story_line_left"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/story_line_wrapper_padding">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_profile_icon_left"
+        android:layout_width="@dimen/circle_profile_icon_size"
+        android:layout_height="@dimen/circle_profile_icon_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:setProfileImg="@{viewModel.profileImg}"/>
+    <TextView
+        android:id="@+id/tv_profile_who_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/story_line_who_size"
+        android:textColor="@android:color/black"
+        android:text="@{viewModel.who}"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/civ_profile_icon_left"
+        android:layout_marginStart="@dimen/story_line_left_or_right_indicator_gap"/>
+    <ImageView
+        android:id="@+id/iv_content_img_left"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="@dimen/story_line_img_max_h"
+        android:visibility="@{viewModel.contentImgVisibility}"
+        app:setContentImg="@{viewModel.contentImg}"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profile_who_left"
+        app:layout_constraintStart_toEndOf="@+id/civ_profile_icon_left"
+        android:layout_marginEnd="@dimen/story_line_left_or_right_indicator_gap"
+        android:layout_marginTop="@dimen/story_line_top_indicator_gap"
+        android:layout_marginStart="@dimen/story_line_left_or_right_indicator_gap"/>
+    <TextView
+        android:id="@+id/tv_content_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/story_line_content_txt_size"
+        android:textColor="@android:color/black"
+        android:text="@{viewModel.content}"
+        android:padding="@dimen/story_line_content_padding"
+        android:background="@drawable/orthers_content_background"
+        app:layout_constraintTop_toBottomOf="@+id/iv_content_img_left"
+        app:layout_constraintStart_toEndOf="@+id/civ_profile_icon_left"
+        android:layout_marginEnd="@dimen/story_line_left_or_right_indicator_gap"
+        android:layout_marginTop="@dimen/story_line_top_indicator_gap"
+        android:layout_marginStart="@dimen/story_line_left_or_right_indicator_gap"/>
+    <TextView
+        android:id="@+id/tv_typed_at_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/story_line_typed_at_size"
+        android:text="@{viewModel.modifiedAt}"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_content_left"
+        app:layout_constraintStart_toEndOf="@+id/tv_content_left"
+        android:layout_marginStart="@dimen/story_line_left_or_right_indicator_gap"/>
+
+</android.support.constraint.ConstraintLayout>
+</layout>

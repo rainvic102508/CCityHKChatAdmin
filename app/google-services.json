@@ -1,0 +1,242 @@
+{
+  "project_info": {
+    "project_number": "787353913464",
+    "firebase_url": "https://constructioncity-ahomehk.firebaseio.com",
+    "project_id": "constructioncity-ahomehk",
+    "storage_bucket": "constructioncity-ahomehk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787353913464:android:fd9e715cfb56ae8a",
+        "android_client_info": {
+          "package_name": "com.ahomehk.constructioncity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787353913464-55p146ft5cku2lbblh6deb2dejaovjc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahomehk.constructioncity",
+            "certificate_hash": "0ef0318f5b6649fb8707e9d82e53871ae16554f6"
+          }
+        },
+        {
+          "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDLSMe3OAfLRBBo5Ab14PROJFvcrJkYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787353913464:android:e66f62084e99141c",
+        "android_client_info": {
+          "package_name": "com.constructioncity.rainvic.imageuploader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDLSMe3OAfLRBBo5Ab14PROJFvcrJkYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787353913464:android:ba7c1d1b566cf392",
+        "android_client_info": {
+          "package_name": "com.ccityhk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787353913464-e1tdgv9mrla6lmtuv0tdskgv6q9oh0rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ccityhk",
+            "certificate_hash": "0ef0318f5b6649fb8707e9d82e53871ae16554f6"
+          }
+        },
+        {
+          "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDLSMe3OAfLRBBo5Ab14PROJFvcrJkYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787353913464-c2gvrkp5tv1tbh5srag67sd281gdvn9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zetrixweb.ConstructionCity"
+              }
+            },
+            {
+              "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787353913464:android:f0caf39875f841a9",
+        "android_client_info": {
+          "package_name": "com.ahomehk.constructioncityv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787353913464-un0f9ce971v5edf7kdk4d8ia0a8guq2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahomehk.constructioncityv2",
+            "certificate_hash": "f1c511c58bcf9139cac05646ba1e587ea202cbfc"
+          }
+        },
+        {
+          "client_id": "787353913464-lvn3cgm7v4qrkk7mho2jf6mr45b68nqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahomehk.constructioncityv2",
+            "certificate_hash": "79f123fd4944163eab5571eea97af549da9d34da"
+          }
+        },
+        {
+          "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDLSMe3OAfLRBBo5Ab14PROJFvcrJkYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787353913464-c2gvrkp5tv1tbh5srag67sd281gdvn9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zetrixweb.ConstructionCity"
+              }
+            },
+            {
+              "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787353913464:android:ed2f8921a146e1e7",
+        "android_client_info": {
+          "package_name": "comchatory.rainvic.ccityhkchatadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787353913464-7ek2kj7scpr61j23e11cd3olj2ralbp0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comchatory.rainvic.ccityhkchatadmin",
+            "certificate_hash": "f1c511c58bcf9139cac05646ba1e587ea202cbfc"
+          }
+        },
+        {
+          "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDLSMe3OAfLRBBo5Ab14PROJFvcrJkYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787353913464-c2gvrkp5tv1tbh5srag67sd281gdvn9g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zetrixweb.ConstructionCity"
+              }
+            },
+            {
+              "client_id": "787353913464-u73dmngp61ndg1jdorn04sthgovi3lqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

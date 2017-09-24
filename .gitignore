@@ -148,11 +148,3 @@ $RECYCLE.BIN/
 
 app/google-services-dev.json
 app/libs/
-.gitignore
-app/
-build.gradle
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
