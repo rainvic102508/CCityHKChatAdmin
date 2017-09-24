@@ -91,6 +91,7 @@ public class MessengerPresenter implements MessengerContract.Presenter {
             };
         }
 
+
         firebaseDB.getMessages(uid, from, to, messageCallback);
     }
 
