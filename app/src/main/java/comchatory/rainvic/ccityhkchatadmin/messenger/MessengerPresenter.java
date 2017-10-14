@@ -20,15 +20,17 @@ public class MessengerPresenter implements MessengerContract.Presenter {
 
     private List<Message> messageList;
 
+    private String username;
     private String uid;
 
     private FirebaseDB.MessageCallback messageCallback;
 
-    public MessengerPresenter(MessengerContract.View messengerView, FirebaseDB firebaseDB) {
+    public MessengerPresenter(MessengerContract.View messengerView, String uid, String username, FirebaseDB firebaseDB) {
         this.messengerView = messengerView;
         this.firebaseDB = firebaseDB;
         this.messageList = new ArrayList<>();
-        this.uid = "V02hRo7X9MaFj7IbimBKGD4j9RF2";
+        this.uid = uid;
+        this.username = username;
     }
 
     @Override
@@ -98,7 +100,7 @@ public class MessengerPresenter implements MessengerContract.Presenter {
     @Override
     public void sendNewMessage(String body) {
         firebaseDB.writeNewMessage(
-                "CCityHK",
+                username,
                 uid,
                 body);
 

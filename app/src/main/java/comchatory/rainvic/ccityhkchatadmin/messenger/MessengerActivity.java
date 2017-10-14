@@ -23,6 +23,9 @@ public class MessengerActivity extends BaseActivity implements MessengerContract
     private MessengerViewModel messengerViewModel;
     private MessengerAdapter messengerAdapter;
 
+    public static final String UID = "DATA_UID";
+    public static final String USER_NAME = "DATA_USER_NAME";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +37,13 @@ public class MessengerActivity extends BaseActivity implements MessengerContract
             getSupportActionBar().setHomeButtonEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
-        messengerPresenter = new MessengerPresenter(this, Injection.provideFirebaseDB(this));
+
+        String uid = getIntent().getStringExtra(UID);
+        String username = getIntent().getStringExtra(USER_NAME);
+        if(uid == null || uid.isEmpty())
+            finish();
+
+        messengerPresenter = new MessengerPresenter(this, uid, username, Injection.provideFirebaseDB(this));
 
         messengerViewModel = new MessengerViewModel(this, messengerPresenter);
 

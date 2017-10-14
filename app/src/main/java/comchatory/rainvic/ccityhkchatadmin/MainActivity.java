@@ -14,6 +14,7 @@ import com.google.firebase.auth.AuthResult;
 
 import comchatory.rainvic.ccityhkchatadmin.databinding.ActivityMainBinding;
 import comchatory.rainvic.ccityhkchatadmin.messenger.MessengerActivity;
+import comchatory.rainvic.ccityhkchatadmin.users.UserListActivity;
 import comchatory.rainvic.ccityhkchatadmin.util.PreferenceUtil;
 
 import static comchatory.rainvic.ccityhkchatadmin.util.PreferenceUtil.ANONYMOUS_AUTH;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void startMessenger(){
 
-        Intent intent = new Intent(this, MessengerActivity.class);
+        Intent intent = new Intent(this, UserListActivity.class);
         startActivity(intent);
     }
 }
